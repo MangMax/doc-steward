@@ -2,5 +2,11 @@
   "name": "doc-steward",
   "version": "0.1.0",
   "type": "module",
-  "main": ".opencode/plugins/doc-steward.js"
+  "main": ".opencode/plugins/doc-steward.js",
+  "homepage": "https://github.com/MangMax/doc-steward",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MangMax/doc-steward.git"
+  },
+  "license": "MIT"
 }

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "A focused documentation stewardship skill for coding agents.",
   "license": "MIT",
+  "homepage": "https://github.com/MangMax/doc-steward",
+  "repository": "https://github.com/MangMax/doc-steward",
   "keywords": [
     "documentation",
     "skills",
@@ -26,6 +28,7 @@
       "Check this change for documentation impact.",
       "Bootstrap concise documentation for this project."
     ],
+    "websiteURL": "https://github.com/MangMax/doc-steward",
     "brandColor": "#2563EB",
     "screenshots": []
   }

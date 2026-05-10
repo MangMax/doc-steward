@@ -11,7 +11,7 @@ Add this repository to the `plugin` array in your global or project-level `openc
 
 ```json
 {
-  "plugin": ["doc-steward@git+https://github.com/<owner>/doc-steward.git"]
+  "plugin": ["doc-steward@git+https://github.com/MangMax/doc-steward.git"]
 }
 ```
 

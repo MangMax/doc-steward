@@ -87,7 +87,7 @@ For a published repository, add this to your `opencode.json`:
 
 ```json
 {
-  "plugin": ["doc-steward@git+https://github.com/<owner>/doc-steward.git"]
+  "plugin": ["doc-steward@git+https://github.com/MangMax/doc-steward.git"]
 }
 ```
 
@@ -184,8 +184,7 @@ python -m json.tool package.json
 
 Before publishing this repository to GitHub:
 
-- Replace `<owner>` in `.opencode/INSTALL.md` with the final GitHub owner or organization.
-- Add `homepage`, `repository`, and `interface.websiteURL` to `.codex-plugin/plugin.json` if your distribution flow expects them.
+- Confirm the GitHub URL in `.opencode/INSTALL.md`, `.codex-plugin/plugin.json`, and `package.json` is current.
 - Install in at least one target host and confirm the `documentation` skill is discovered.
 - Run the validation commands above.
 - Create a git tag that matches the release notes, for example `v0.1.0`.

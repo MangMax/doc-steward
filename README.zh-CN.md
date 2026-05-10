@@ -97,7 +97,7 @@ package.json
 
 ```json
 {
-  "plugin": ["doc-steward@git+https://github.com/<owner>/doc-steward.git"]
+  "plugin": ["doc-steward@git+https://github.com/MangMax/doc-steward.git"]
 }
 ```
 
@@ -194,8 +194,7 @@ python -m json.tool package.json
 
 发布到 GitHub 前建议检查：
 
-- 将 `.opencode/INSTALL.md` 中的 `<owner>` 替换成最终 GitHub 账号或组织名。
-- 如果分发流程需要，在 `.codex-plugin/plugin.json` 中补充 `homepage`、`repository` 和 `interface.websiteURL`。
+- 确认 `.opencode/INSTALL.md`、`.codex-plugin/plugin.json` 和 `package.json` 中的 GitHub URL 是最新的。
 - 至少在一个目标宿主中安装并确认能发现 `documentation` skill。
 - 运行上面的校验命令。
 - 创建与 release notes 对应的 git tag，例如 `v0.1.0`。

@@ -63,7 +63,7 @@ Before publishing or tagging a release:
 
 - Run the validation commands above.
 - Confirm `git status` is clean.
-- Replace `<owner>` in `.opencode/INSTALL.md` with the final GitHub owner or organization.
+- Confirm the GitHub URL in `.opencode/INSTALL.md`, `.codex-plugin/plugin.json`, and `package.json` is current.
 - Confirm `LICENSE` matches manifest license fields.
 - Install in at least one target host and verify the `documentation` skill is discoverable.
 - Tag the release with the version documented in `RELEASE-NOTES.md`.

@@ -16,4 +16,4 @@ Initial public release.
 ### Notes
 
 - The skill intentionally avoids hooks and runtime enforcement. It is designed to guide documentation updates without hidden automation or documentation churn.
-- OpenCode installation still requires replacing `<owner>` in `.opencode/INSTALL.md` after the GitHub repository is created.
+- OpenCode installation points to `https://github.com/MangMax/doc-steward.git`.
