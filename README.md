@@ -1,8 +1,8 @@
-# Documentation Skill
+# Doc Steward
 
 [中文说明](README.zh-CN.md)
 
-Documentation Skill is a focused Agent Skill for keeping project documentation accurate after meaningful code, API, setup, architecture, and operations changes.
+Doc Steward is a focused Agent Skill for keeping project documentation accurate after meaningful code, API, setup, architecture, and operations changes.
 
 It is designed for coding agents that already work inside a repository and need a lightweight, production-friendly way to decide when docs should change, which docs should change, and when leaving docs alone is the right call.
 
@@ -11,7 +11,7 @@ It is designed for coding agents that already work inside a repository and need 
 Install the plugin or copy the skill into your agent's skills directory, then add this instruction to your project-level agent guidance:
 
 ```md
-Use the documentation skill before completing tasks that may change public behavior, APIs, CLI commands, configuration, setup, architecture, deployment, operations, or durable project decisions.
+Use the `documentation` skill before completing tasks that may change public behavior, APIs, CLI commands, configuration, setup, architecture, deployment, operations, or durable project decisions.
 ```
 
 The skill will not try to rewrite your whole documentation set. It checks whether the current task affects documentation, updates only the relevant files, and explicitly reports when no documentation changes were needed.
@@ -67,7 +67,7 @@ gemini-extension.json
 GEMINI.md
 ```
 
-`GEMINI.md` loads the documentation skill directly:
+`GEMINI.md` loads the `documentation` skill directly:
 
 ```md
 @./skills/documentation/SKILL.md
@@ -79,7 +79,7 @@ This repository includes an OpenCode plugin entrypoint:
 
 ```txt
 package.json
-.opencode/plugins/documentation-skill.js
+.opencode/plugins/doc-steward.js
 .opencode/INSTALL.md
 ```
 
@@ -87,7 +87,7 @@ For a published repository, add this to your `opencode.json`:
 
 ```json
 {
-  "plugin": ["documentation-skill@git+https://github.com/<owner>/documentation-skill.git"]
+  "plugin": ["doc-steward@git+https://github.com/<owner>/doc-steward.git"]
 }
 ```
 
@@ -134,7 +134,7 @@ Typical updates include:
 .opencode/
 ├── INSTALL.md
 └── plugins/
-    └── documentation-skill.js
+    └── doc-steward.js
 AGENTS.md
 CLAUDE.md
 gemini-extension.json

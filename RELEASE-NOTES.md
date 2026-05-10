@@ -1,4 +1,4 @@
-# Documentation Skill Release Notes
+# Doc Steward Release Notes
 
 ## v0.1.0 (2026-05-10)
 

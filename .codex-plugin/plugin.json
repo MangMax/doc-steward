@@ -1,7 +1,7 @@
 {
-  "name": "documentation-skill",
+  "name": "doc-steward",
   "version": "0.1.0",
-  "description": "A focused documentation-maintenance skill for coding agents.",
+  "description": "A focused documentation stewardship skill for coding agents.",
   "license": "MIT",
   "keywords": [
     "documentation",
@@ -14,9 +14,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Documentation Skill",
+    "displayName": "Doc Steward",
     "shortDescription": "Keep project docs accurate after meaningful changes without documentation churn.",
-    "longDescription": "Use this plugin to help coding agents keep README files, reference docs, architecture docs, changelogs, ADRs, playbooks, and agent guidance synchronized with verified project changes.",
+    "longDescription": "Use Doc Steward to help coding agents keep README files, reference docs, architecture docs, changelogs, ADRs, playbooks, and agent guidance synchronized with verified project changes.",
     "category": "Coding",
     "capabilities": [
       "Read",

@@ -1,4 +1,4 @@
-# Installing Documentation Skill for OpenCode
+# Installing Doc Steward for OpenCode
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ Add this repository to the `plugin` array in your global or project-level `openc
 
 ```json
 {
-  "plugin": ["documentation-skill@git+https://github.com/<owner>/documentation-skill.git"]
+  "plugin": ["doc-steward@git+https://github.com/<owner>/doc-steward.git"]
 }
 ```
 
@@ -23,7 +23,7 @@ Use the local repository path while testing:
 
 ```json
 {
-  "plugin": ["F:/Users/Mang/Downloads/Compressed/documentation-skill"]
+  "plugin": ["/path/to/doc-steward"]
 }
 ```
 

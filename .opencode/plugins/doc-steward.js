@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-export const DocumentationSkillPlugin = async () => {
+export const DocStewardPlugin = async () => {
   const skillsDir = path.resolve(__dirname, '../../skills')
 
   return {
@@ -18,4 +18,4 @@ export const DocumentationSkillPlugin = async () => {
   }
 }
 
-export default DocumentationSkillPlugin
+export default DocStewardPlugin

@@ -1,4 +1,4 @@
-# Documentation Skill Contributor Guide
+# Doc Steward Contributor Guide
 
 ## Project Purpose
 
@@ -15,7 +15,7 @@ Keep the repository small, dependency-light, and easy to install from GitHub.
 - `.claude-plugin/plugin.json` - Claude plugin manifest.
 - `.cursor-plugin/plugin.json` - Cursor plugin manifest.
 - `gemini-extension.json` and `GEMINI.md` - Gemini extension entrypoint.
-- `package.json` and `.opencode/plugins/documentation-skill.js` - OpenCode plugin entrypoint.
+- `package.json` and `.opencode/plugins/doc-steward.js` - OpenCode plugin entrypoint.
 - `README.md` and `README.zh-CN.md` - English and Chinese user-facing documentation.
 - `RELEASE-NOTES.md` - release history for published versions.
 - `.github/PULL_REQUEST_TEMPLATE.md` - contributor checklist for pull requests.
@@ -47,7 +47,7 @@ python -m json.tool gemini-extension.json
 python -m json.tool package.json
 ```
 
-If you change the OpenCode plugin, inspect `.opencode/plugins/documentation-skill.js` manually and test plugin discovery in OpenCode when possible.
+If you change the OpenCode plugin, inspect `.opencode/plugins/doc-steward.js` manually and test plugin discovery in OpenCode when possible.
 
 ## Documentation Rules
 
