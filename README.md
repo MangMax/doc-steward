@@ -133,6 +133,8 @@ Typical updates include:
 ├── INSTALL.md
 └── plugins/
     └── documentation-skill.js
+AGENTS.md
+CLAUDE.md
 gemini-extension.json
 GEMINI.md
 package.json
