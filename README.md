@@ -1,5 +1,7 @@
 # Documentation Skill
 
+[中文说明](README.zh-CN.md)
+
 Documentation Skill is a focused Agent Skill for keeping project documentation accurate after meaningful code, API, setup, architecture, and operations changes.
 
 It is designed for coding agents that already work inside a repository and need a lightweight, production-friendly way to decide when docs should change, which docs should change, and when leaving docs alone is the right call.
