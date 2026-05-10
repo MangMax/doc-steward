@@ -180,10 +180,9 @@ Before publishing this repository to GitHub:
 
 - Replace `<owner>` in `.opencode/INSTALL.md` with the final GitHub owner or organization.
 - Add `homepage`, `repository`, and `interface.websiteURL` to `.codex-plugin/plugin.json` if your distribution flow expects them.
-- Choose and add a license before inviting external reuse.
 - Install in at least one target host and confirm the `documentation` skill is discovered.
 - Run the validation commands above.
 
 ## License
 
-No license has been selected yet. Add a license before publishing if other people should be allowed to use, modify, or redistribute this skill.
+MIT License. See [LICENSE](LICENSE).

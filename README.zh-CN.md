@@ -190,10 +190,9 @@ python -m json.tool package.json
 
 - 将 `.opencode/INSTALL.md` 中的 `<owner>` 替换成最终 GitHub 账号或组织名。
 - 如果分发流程需要，在 `.codex-plugin/plugin.json` 中补充 `homepage`、`repository` 和 `interface.websiteURL`。
-- 在邀请外部使用前选择并添加许可证。
 - 至少在一个目标宿主中安装并确认能发现 `documentation` skill。
 - 运行上面的校验命令。
 
 ## 许可证
 
-当前还没有选择许可证。如果希望其他人可以使用、修改或再分发这份 skill，请在发布前添加许可证。
+MIT License。详见 [LICENSE](LICENSE)。

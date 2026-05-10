@@ -2,6 +2,7 @@
   "name": "documentation-skill",
   "version": "0.1.0",
   "description": "A focused documentation-maintenance skill for coding agents.",
+  "license": "MIT",
   "keywords": [
     "documentation",
     "skills",
