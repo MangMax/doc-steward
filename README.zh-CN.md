@@ -139,6 +139,8 @@ your-project/
 └── plugin.json
 .cursor-plugin/
 └── plugin.json
+.github/
+└── PULL_REQUEST_TEMPLATE.md
 .opencode/
 ├── INSTALL.md
 └── plugins/
@@ -147,7 +149,9 @@ AGENTS.md
 CLAUDE.md
 gemini-extension.json
 GEMINI.md
+LICENSE
 package.json
+RELEASE-NOTES.md
 skills/documentation/
 ├── SKILL.md
 ├── agents/openai.yaml
@@ -194,6 +198,7 @@ python -m json.tool package.json
 - 如果分发流程需要，在 `.codex-plugin/plugin.json` 中补充 `homepage`、`repository` 和 `interface.websiteURL`。
 - 至少在一个目标宿主中安装并确认能发现 `documentation` skill。
 - 运行上面的校验命令。
+- 创建与 release notes 对应的 git tag，例如 `v0.1.0`。
 
 ## 许可证
 

@@ -129,6 +129,8 @@ Typical updates include:
 └── plugin.json
 .cursor-plugin/
 └── plugin.json
+.github/
+└── PULL_REQUEST_TEMPLATE.md
 .opencode/
 ├── INSTALL.md
 └── plugins/
@@ -137,7 +139,9 @@ AGENTS.md
 CLAUDE.md
 gemini-extension.json
 GEMINI.md
+LICENSE
 package.json
+RELEASE-NOTES.md
 skills/documentation/
 ├── SKILL.md
 ├── agents/openai.yaml
@@ -184,6 +188,7 @@ Before publishing this repository to GitHub:
 - Add `homepage`, `repository`, and `interface.websiteURL` to `.codex-plugin/plugin.json` if your distribution flow expects them.
 - Install in at least one target host and confirm the `documentation` skill is discovered.
 - Run the validation commands above.
+- Create a git tag that matches the release notes, for example `v0.1.0`.
 
 ## License
 

@@ -17,6 +17,8 @@ Keep the repository small, dependency-light, and easy to install from GitHub.
 - `gemini-extension.json` and `GEMINI.md` - Gemini extension entrypoint.
 - `package.json` and `.opencode/plugins/documentation-skill.js` - OpenCode plugin entrypoint.
 - `README.md` and `README.zh-CN.md` - English and Chinese user-facing documentation.
+- `RELEASE-NOTES.md` - release history for published versions.
+- `.github/PULL_REQUEST_TEMPLATE.md` - contributor checklist for pull requests.
 
 ## Skill Editing Rules
 
@@ -53,6 +55,7 @@ If you change the OpenCode plugin, inspect `.opencode/plugins/documentation-skil
 - Do not duplicate long skill internals in README files. The README should explain value, installation, contents, validation, and publishing.
 - Keep `.opencode/INSTALL.md` synchronized with the OpenCode section in the README.
 - If the GitHub repository URL changes, update `.opencode/INSTALL.md` and any manifest URL fields that are later added.
+- Update `RELEASE-NOTES.md` for user-facing changes, host support changes, publishing changes, or skill behavior changes.
 
 ## Publishing Checklist
 
@@ -63,3 +66,4 @@ Before publishing or tagging a release:
 - Replace `<owner>` in `.opencode/INSTALL.md` with the final GitHub owner or organization.
 - Confirm `LICENSE` matches manifest license fields.
 - Install in at least one target host and verify the `documentation` skill is discoverable.
+- Tag the release with the version documented in `RELEASE-NOTES.md`.
