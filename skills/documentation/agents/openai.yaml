@@ -1,0 +1,3 @@
+display_name: Documentation
+short_description: Keep project docs accurate after meaningful changes without creating documentation churn.
+default_prompt: Check the project for documentation impact and update only the relevant docs with concise, verified information.

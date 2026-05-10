@@ -1,0 +1,31 @@
+{
+  "name": "documentation-skill",
+  "version": "0.1.0",
+  "description": "A focused documentation-maintenance skill for coding agents.",
+  "keywords": [
+    "documentation",
+    "skills",
+    "readme",
+    "architecture",
+    "adr",
+    "changelog",
+    "operations"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Documentation Skill",
+    "shortDescription": "Keep project docs accurate after meaningful changes without documentation churn.",
+    "longDescription": "Use this plugin to help coding agents keep README files, reference docs, architecture docs, changelogs, ADRs, playbooks, and agent guidance synchronized with verified project changes.",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Check this change for documentation impact.",
+      "Bootstrap concise documentation for this project."
+    ],
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}
