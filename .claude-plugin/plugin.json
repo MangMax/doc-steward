@@ -1,0 +1,14 @@
+{
+  "name": "documentation-skill",
+  "description": "Documentation maintenance skill for coding agents: README, reference docs, architecture docs, changelogs, ADRs, playbooks, and agent guidance.",
+  "version": "0.1.0",
+  "keywords": [
+    "skills",
+    "documentation",
+    "readme",
+    "architecture",
+    "adr",
+    "changelog",
+    "operations"
+  ]
+}

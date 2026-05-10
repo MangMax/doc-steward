@@ -57,8 +57,19 @@ The skill helps an AI agent:
 ## Contents
 
 ```txt
+.claude-plugin/
+└── plugin.json
 .codex-plugin/
 └── plugin.json
+.cursor-plugin/
+└── plugin.json
+.opencode/
+├── INSTALL.md
+└── plugins/
+    └── documentation-skill.js
+gemini-extension.json
+GEMINI.md
+package.json
 skills/documentation/
 ├── SKILL.md
 ├── agents/openai.yaml
@@ -78,3 +89,15 @@ python path/to/skill-creator/scripts/quick_validate.py skills/documentation
 ```
 
 The plugin manifest lives in `.codex-plugin/plugin.json`. After creating the GitHub repository, you can add `homepage`, `repository`, and `interface.websiteURL` fields with the final repository URL.
+
+## Supported Agent Hosts
+
+This repository includes lightweight plugin or extension metadata for:
+
+- Codex: `.codex-plugin/plugin.json`
+- Claude Code: `.claude-plugin/plugin.json`
+- Cursor: `.cursor-plugin/plugin.json`
+- Gemini CLI: `gemini-extension.json` and `GEMINI.md`
+- OpenCode: `package.json`, `.opencode/plugins/documentation-skill.js`, and `.opencode/INSTALL.md`
+
+Replace the placeholder GitHub URL in `.opencode/INSTALL.md` after the repository is published.
