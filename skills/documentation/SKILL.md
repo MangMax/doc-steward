@@ -64,6 +64,7 @@ Apply every matching row, but keep the edit as small as the change allows.
 | Architecture or dependency-boundary change | Architecture docs; ADR only when the decision is durable and has meaningful tradeoffs |
 | Important limitation or follow-up | Roadmap, `docs/known-issues.md`, decisions, or the nearest existing planning document |
 | Release preparation | CHANGELOG or release notes; README only if current status or usage changed |
+| Documentation structure change (reorganize, rename, split, merge docs) | Update all internal links; update README Documentation section if it lists the moved files; do not move established files unless the user asked or the current location is clearly broken |
 
 For detailed structures and examples, read [references/document-map.md](references/document-map.md).
 
@@ -98,13 +99,11 @@ For the ADR template, read [references/adr.md](references/adr.md).
 
 ## Freshness Check
 
-Before finishing, fix documentation that:
+Before finishing, fix documentation issues in this order of severity:
 
-- describes removed behavior, commands, files, config keys, routes, or setup steps
-- omits a newly required step, env var, migration, or operational procedure
-- contradicts source code, examples, tests, or package metadata
-- makes unverifiable claims
-- contains TODOs that are now wrong or obsolete
+1. **Critical** — describes removed behavior, commands, files, config keys, routes, or setup steps that no longer exist; omits a newly required step, env var, migration, or operational procedure
+2. **High** — contradicts source code, examples, tests, or package metadata
+3. **Low** — makes unverifiable claims; contains TODOs that are now wrong or obsolete
 
 ## Final Response
 

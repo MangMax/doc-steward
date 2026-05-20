@@ -12,8 +12,7 @@ Explain the real problem or use case this solves. Avoid speculative cleanup unle
 
 List the checks you ran:
 
-- [ ] `python path/to/skill-creator/scripts/quick_validate.py skills/documentation`
-- [ ] JSON manifests parse successfully
+- [ ] JSON manifests parse successfully (`python -m json.tool` on each manifest)
 - [ ] README and README.zh-CN.md were updated if user-facing behavior, installation, publishing, or host support changed
 
 ## Skill impact

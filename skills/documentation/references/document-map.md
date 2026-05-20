@@ -18,7 +18,8 @@ Do not create every layer by default. Choose the smallest destination that keeps
 | `docs/operations.md` | Deployment, monitoring, backups, secrets, incident procedures |
 | `docs/decisions.md` or `docs/decisions/*.md` | Durable decisions and tradeoffs |
 | `docs/playbooks/*.md` | Repeatable operational or maintenance procedures |
-| `CHANGELOG.md` | User-visible changes by version or release |
+| `CHANGELOG.md` | User-visible changes by version or release; use for libraries, CLIs, and packages with formal versioning |
+| `RELEASE-NOTES.md` | Human-readable release summaries; use when the project prefers prose over Keep-a-Changelog format, or when both exist: `CHANGELOG` is the machine-friendly log, `RELEASE-NOTES` is the audience-friendly narrative |
 | `AGENTS.md` | Repository-specific agent rules when the project uses agent guidance |
 
 ## Small Projects

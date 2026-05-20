@@ -164,13 +164,7 @@ skills/documentation/
 
 ## Validation
 
-Validate the skill metadata before publishing:
-
-```sh
-python path/to/skill-creator/scripts/quick_validate.py skills/documentation
-```
-
-You can also sanity-check JSON manifests:
+Sanity-check JSON manifests before publishing:
 
 ```sh
 python -m json.tool .codex-plugin/plugin.json

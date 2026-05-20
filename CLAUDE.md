@@ -31,12 +31,6 @@ Keep the repository small, dependency-light, and easy to install from GitHub.
 
 ## Validation
 
-After changing the skill, run:
-
-```sh
-python path/to/skill-creator/scripts/quick_validate.py skills/documentation
-```
-
 After changing plugin manifests, validate JSON:
 
 ```sh

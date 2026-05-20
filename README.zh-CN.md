@@ -174,13 +174,7 @@ skills/documentation/
 
 ## 校验
 
-发布前校验 skill metadata：
-
-```sh
-python path/to/skill-creator/scripts/quick_validate.py skills/documentation
-```
-
-也可以检查 JSON manifest：
+发布前检查 JSON manifest：
 
 ```sh
 python -m json.tool .codex-plugin/plugin.json

@@ -33,9 +33,7 @@ Current maturity and intended use.
 
 ## Documentation
 
-- `docs/usage.md` - common workflows
-- `docs/reference.md` - APIs, commands, config, and file formats
-- `docs/architecture.md` - system structure and tradeoffs
+List only docs files that already exist. Omit this section if no separate docs files have been created.
 ````
 
 ## Getting Started Template
