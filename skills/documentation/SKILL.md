@@ -14,9 +14,10 @@ Keep documentation synchronized with the project state. Treat stale documentatio
 1. Inspect relevant existing documentation before editing docs, and before code changes when docs may influence the implementation.
 2. Identify whether the task changes interface, structure, or project knowledge.
 3. Make the code or project change.
-4. Update only the affected documentation.
-5. Check for contradictions between code, README, docs, changelog, and agent guidance.
-6. Summarize documentation work in the final response.
+4. Verify the actual change by reading the modified files or running `git diff`. Do not rely on memory of what was just done.
+5. Update only the affected documentation, grounded in what step 4 revealed.
+6. Check for contradictions between code, README, docs, changelog, and agent guidance.
+7. Summarize documentation work in the final response.
 
 ## Decide Whether To Update Docs
 
@@ -30,8 +31,9 @@ Usually do not update docs for purely internal refactors, tests, formatting, sma
 
 ## Evidence Before Editing
 
-Base documentation on verifiable project evidence:
+Base documentation strictly on verifiable project evidence. Do not summarize or paraphrase what the agent believes it just did — read the actual current state of files or diff output:
 
+- `git diff` or the modified files themselves — the authoritative record of what changed
 - README, existing docs, AGENTS.md, CLAUDE.md, or package-level READMEs
 - package scripts, Makefile, task files, CI config, Docker files, deployment manifests
 - source exports, route definitions, CLI parsers, config schemas, env validation, database migrations
